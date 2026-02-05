@@ -39,7 +39,8 @@ Welcome to my first in-depth IT tutorial! To begin we will have to create a Virt
 </p>
 <p>Next simply connect to your newly created VM using RDP using the public IPv4 address. If you are a Mac user you will have to download Microsoft Remote Desktop(RDP). 
 </p>
-<img src="https://i.imgur.com/uLVKzxS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="396" height="245" alt="image" src="https://github.com/user-attachments/assets/eae14a13-3e5a-4d18-aebb-61227aa9d144" />
+
 </p>
 <br />
 
