@@ -89,6 +89,80 @@ Make the new root password: root
 Execute the process on the next page.
 </p>
 <img width="498" height="376" alt="image" src="https://github.com/user-attachments/assets/149246c3-ce9e-4972-b471-6547274c1fa7" />
+</p>
+Now that we have the files downloaded and installed we will want to search for IIS in the windows search bar. Open IIS as an administrator. The program should look like this.
+</p>
+<img width="1426" height="753" alt="image" src="https://github.com/user-attachments/assets/bb37884c-6f68-44ed-b92e-77c564d75300" />
+</p>
+We will now want to register PHP from within IIS. Click on PHP Manager
+</p>
+<img width="1426" height="753" alt="image" src="https://github.com/user-attachments/assets/e72c7c12-5911-4a30-aa91-c8254e43ab74" />
+</p>
+Register new PHP version.
+</p>
+<img width="1427" height="754" alt="image" src="https://github.com/user-attachments/assets/ce00905d-b9b7-4069-b40e-7a665aeb9545" />
+
+</p>
+You will want to provide a path to the php executable file (php-cgi.exe)). Go to C Drive -> PHP -> click on php-cgi file.
+</p>
+<img width="503" height="214" alt="image" src="https://github.com/user-attachments/assets/e7b34198-e2f4-4241-bbb5-066c7a552419" />
+
+</p>
+Restart the IIS server.
+</p>
+13.) Install osTicket v1.15.8 -Download osTicket from the Installation Files Folder -Extract and copy "upload" folder to c:\inetpub\wwwroot -Within c:\inetpub\root, Rename "upload" to "osTicket"
+</p>
+Reload IIS again.
+</p>
+14.) On IIS go to sites -> Default -> osTicket -On the right, click “Browse *:80”
+</p>
+Some extensions are not enabled on the osTicket browser.
+</p>
+<img width="823" height="742" alt="image" src="https://github.com/user-attachments/assets/b4a0047e-20d5-45b0-9b3a-30efd3bd0290" />
+</p>
+To enable the extensions: -Go back to IIS, sites -> Default -> osTicket -Double click PHP manager -Click "Enable or disable an extension"
+</p>
+<img width="1426" height="753" alt="image" src="https://github.com/user-attachments/assets/17ef01a6-4a81-4874-b9fb-17962e21d285" />
+</p>
+<img width="734" height="605" alt="image" src="https://github.com/user-attachments/assets/31e0701b-2c94-406b-9345-f2b56367a2a4" />
+
+We will want to enable three extensions from here.
+</p>
+1.) php_imap.dll
+</p>
+2.) php_intl.dll
+</p>
+3.) php_opcache.dll
+</p>
+<img width="1005" height="394" alt="image" src="https://github.com/user-attachments/assets/7ccc035a-51d0-4853-a317-781856467316" />
+</p>
+Once we have those extensions enabled in IIS, we are going to want to rename one of the files in our osTicket folder. Go into the file explorer and search for C;\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+</p>
+We are going to rename the ost-sampleconfig.php to ost-config.php
+</p>
+Now that we have renamed the files, right click on the file and go to properties. From there click security, click on advance, and disable the inheritance. We will select Remove all inherited permissions from this object.
+</p>
+Now we will add new permissions.
+</p>
+Click Add
+</p>
+<img width="753" height="481" alt="image" src="https://github.com/user-attachments/assets/e695648d-5456-4629-985d-fa0136fa5c55" />
+</p>
+Select a principal
+</p>
+<img width="914" height="590" alt="image" src="https://github.com/user-attachments/assets/4bab85b2-0a9c-4431-8393-11d1b5f22fc0" />
+</p>
+Type "Everyone" in the box.
+</p>
+<img width="462" height="283" alt="image" src="https://github.com/user-attachments/assets/c1ce8347-47a4-49c4-b118-acf6c7a86594" />
+</p>
+Make sure Full Control and all the other boxes are checked.
+</p>
+<img width="911" height="588" alt="image" src="https://github.com/user-attachments/assets/e8f21acc-c3f7-4ae7-9113-d75ffb4d73e6" />
+</p>
+Click Apply and Ok.
+</p>
+<img width="759" height="515" alt="image" src="https://github.com/user-attachments/assets/7b931f0d-7bce-4acc-9a54-103296cb9bca" />
 
 Excellent. Now that you have enabled IIS we need to install Web Platform Installer. I have provided a link here: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
   That link will provide you with all of the material you need to download to get osTicket up and running. Simply click the link and install the Web Platform Installer
