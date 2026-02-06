@@ -167,6 +167,17 @@ Click Apply and Ok.
 Once that is done we will continue to setup osTicket in the browser. Click Continue on the osTicket browser page. Fill out the page as required except the Database Settings at the bottom of the page. We will get to that.
 </p>
 We will want to download and install HeidiSQL from the Installation Files.
+</p>
+<img width="596" height="464" alt="image" src="https://github.com/user-attachments/assets/db496ae2-1e49-4af2-9807-8ac97d75d922" />
+</p>
+When the program is open we will create a new session in it.
+</p>
+<img width="685" height="476" alt="image" src="https://github.com/user-attachments/assets/efb8f7ec-0fac-41ea-8d6e-b5c25aba2e2e" />
+</p>
+We want to make sure the username is root and the password is Password1.
+</p>
+<img width="689" height="481" alt="image" src="https://github.com/user-attachments/assets/14c71f34-2bd8-4e01-b5f4-a6fa79640496" />
+
 
 Excellent. Now that you have enabled IIS we need to install Web Platform Installer. I have provided a link here: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
   That link will provide you with all of the material you need to download to get osTicket up and running. Simply click the link and install the Web Platform Installer
