@@ -194,6 +194,16 @@ We then will want to set the permissions back to "Read" only in the ost-config.p
 <img width="760" height="477" alt="image" src="https://github.com/user-attachments/assets/c1555f7a-a23f-4fd8-a0ba-0c425f654a93" />
 </p>
 <img width="912" height="587" alt="image" src="https://github.com/user-attachments/assets/2b2bf442-cbb3-4288-9147-3615654818e5" />
+</p>
+The last step after that is to login to osTicket on the browser. (http://localhost/osTicket/scp/login.php)
+</p>
+<img width="197" height="164" alt="image" src="https://github.com/user-attachments/assets/8845df8b-603c-4d89-bf72-b65315663a4f" />
+</p>
+<img width="482" height="190" alt="image" src="https://github.com/user-attachments/assets/afe55c7b-cc8a-43c0-9c52-2550251032ff" />
+</p>
+Congrats! You have now successfully installed and setup osTicket!
+
+
 
 
 
