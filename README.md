@@ -81,6 +81,14 @@ From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe.
 Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi) Run the setup wizard: Typical Setup -> Launch Configuration Wizard (after install) -> Standard Configuration ->
 </p>
 <img width="479" height="373" alt="image" src="https://github.com/user-attachments/assets/2a6835eb-78cb-477d-9737-844acdb085e7" />
+</p>
+Make the new root password: Password1
+</p>
+<img width="492" height="368" alt="image" src="https://github.com/user-attachments/assets/001534e4-5f3c-4771-b2b5-2e8140eb0fb1" />
+</p>
+Execute the process on the next page.
+</p>
+<img width="498" height="376" alt="image" src="https://github.com/user-attachments/assets/149246c3-ce9e-4972-b471-6547274c1fa7" />
 
 Excellent. Now that you have enabled IIS we need to install Web Platform Installer. I have provided a link here: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
   That link will provide you with all of the material you need to download to get osTicket up and running. Simply click the link and install the Web Platform Installer
