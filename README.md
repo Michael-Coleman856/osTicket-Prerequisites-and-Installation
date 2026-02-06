@@ -32,25 +32,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 Welcome to my first in-depth IT tutorial! To begin we will have to create a Virtual machine using the Microsoft Azure portal(portal.azure.com). We will be using a VM(virtual machine) which is a remote computer. We are using a VM in order to protect our physical machine just in case something malfunctions, and also have a clean slate computer to continually replicate the lab on. Create a resource group and title it "osTicket". Afterwards create a VM with 2-4 CPUs. In this example I will be using 2 CPUs.
   
  <img width="1359" height="630" alt="image" src="https://github.com/user-attachments/assets/9a6ee547-be20-4dce-9e35-65d926f5fbc0"/>
-/>
-</p>
-<br />
-<p>
-</p>
+ 
 <p>Next simply connect to your newly created VM using RDP using the public IPv4 address. If you are a Mac user you will have to download Microsoft Remote Desktop(RDP). 
 </p>
 <img width="396" height="245" alt="image" src="https://github.com/user-attachments/assets/eae14a13-3e5a-4d18-aebb-61227aa9d144" />
 
 </p>
-<br />
-
-<p>
-</p>
-<p>
 Alright, now that you are connected to your VM you will have to enable IIS. Simply access the control panel then select uninstall a program. Off to the left select "Turn windows features on or off". A list will appear then you will enable Internet Information Services.
 </p>  
 <img width="1124" height="594" alt="image" src="https://github.com/user-attachments/assets/a3d00d97-ba9d-472c-8b27-255aace74dc4" />
-
+</p>
 <img width="1112" height="581" alt="image" src="https://github.com/user-attachments/assets/c91fad0f-3a38-4958-9091-2bf9f8ba8c99" />
 
 
