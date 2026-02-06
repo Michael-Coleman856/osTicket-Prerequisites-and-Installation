@@ -179,7 +179,7 @@ We want to make sure the username is root and the password is Password1.
 <img width="689" height="481" alt="image" src="https://github.com/user-attachments/assets/14c71f34-2bd8-4e01-b5f4-a6fa79640496" />
 </p>
 Once we are connected to the session we will go back to the browser to finish setting everything up. Under the Database Settings in the browser the username will be root and the password will be Password1.
-
+</p>
 We will now create a new database within HeidiSQL. In Heidi right click on the left side where is says "Unnamed", select "create new", and then select "database". Name the new database osTicket. Once we have the new database setup go back to the osTicket browser and under MySQL Database type in osTicket.
 
 Excellent. Now that you have enabled IIS we need to install Web Platform Installer. I have provided a link here: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
