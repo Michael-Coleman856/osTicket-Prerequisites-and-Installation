@@ -70,6 +70,7 @@ Create a folder in the C drive called PHP.
 <img width="559" height="319" alt="image" src="https://github.com/user-attachments/assets/0f9f72dd-54cb-4322-bcdd-26f10934687e" />
 
 From the Installation Files, download PHP 7.3.8 (php-7.3.88-nts-Win32-VC15-x866.zip) and unzip the contents into C:\PHP
+<img width="1001" height="543" alt="image" src="https://github.com/user-attachments/assets/8d5c3bb7-c097-4c2b-baea-f1d594e10ad8" />
 
 !! ATTENTION !! If this appears, choose to “Keep” the file:
 
