@@ -67,6 +67,8 @@ Next from the Installation Files, download and install the Rewrite Module (rewri
 
 Create a folder in the C drive called PHP.
 
+<img width="559" height="319" alt="image" src="https://github.com/user-attachments/assets/0f9f72dd-54cb-4322-bcdd-26f10934687e" />
+
 From the Installation Files, download PHP 7.3.8 (php-7.3.88-nts-Win32-VC15-x866.zip) and unzip the contents into C:\PHP
 
 !! ATTENTION !! If this appears, choose to “Keep” the file:
