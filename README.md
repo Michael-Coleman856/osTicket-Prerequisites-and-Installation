@@ -77,6 +77,8 @@ From the Installation Files, download PHP 7.3.8 (php-7.3.88-nts-Win32-VC15-x866.
 From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe.
 
 <img width="471" height="290" alt="image" src="https://github.com/user-attachments/assets/2829faca-ba31-486c-8184-f5699de91a9c" />
+</p>
+Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi) Run the setup wizard: Typical Setup -> Launch Configuration Wizard (after install) -> Standard Configuration ->
 
 Excellent. Now that you have enabled IIS we need to install Web Platform Installer. I have provided a link here: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
   That link will provide you with all of the material you need to download to get osTicket up and running. Simply click the link and install the Web Platform Installer
