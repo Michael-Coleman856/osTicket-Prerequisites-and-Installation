@@ -82,7 +82,7 @@ Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi) Run the setup wizard:
 </p>
 <img width="479" height="373" alt="image" src="https://github.com/user-attachments/assets/2a6835eb-78cb-477d-9737-844acdb085e7" />
 </p>
-Make the new root password: Password1
+Make the new root password: root
 </p>
 <img width="492" height="368" alt="image" src="https://github.com/user-attachments/assets/001534e4-5f3c-4771-b2b5-2e8140eb0fb1" />
 </p>
