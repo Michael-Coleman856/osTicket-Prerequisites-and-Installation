@@ -181,6 +181,19 @@ We want to make sure the username is root and the password is Password1.
 Once we are connected to the session we will go back to the browser to finish setting everything up. Under the Database Settings in the browser the username will be root and the password will be Password1.
 </p>
 We will now create a new database within HeidiSQL. In Heidi right click on the left side where is says "Unnamed", select "create new", and then select "database". Name the new database osTicket. Once we have the new database setup go back to the osTicket browser and under MySQL Database type in osTicket.
+</p>
+<img width="700" height="278" alt="image" src="https://github.com/user-attachments/assets/55e3f6d7-59a4-4105-9995-63851a86d6f9" />
+
+</p>
+The last step is to do some clean up. We will want to delete the setup folder in our system. -Delete: C:\inetpub\wwwroot\osTicket\setup Only delete the setup folder and nothing else.
+</p>
+We then will want to set the permissions back to "Read" only in the ost-config.php file.
+</p>
+<img width="760" height="477" alt="image" src="https://github.com/user-attachments/assets/c1555f7a-a23f-4fd8-a0ba-0c425f654a93" />
+</p>
+<img width="912" height="587" alt="image" src="https://github.com/user-attachments/assets/2b2bf442-cbb3-4288-9147-3615654818e5" />
+
+
 
 Excellent. Now that you have enabled IIS we need to install Web Platform Installer. I have provided a link here: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
   That link will provide you with all of the material you need to download to get osTicket up and running. Simply click the link and install the Web Platform Installer
