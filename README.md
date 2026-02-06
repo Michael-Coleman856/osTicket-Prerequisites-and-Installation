@@ -38,17 +38,39 @@ Welcome to my first in-depth IT tutorial! To begin we will have to create a Virt
 <img width="396" height="245" alt="image" src="https://github.com/user-attachments/assets/eae14a13-3e5a-4d18-aebb-61227aa9d144" />
 
 </p>
-Alright, now that you are connected to your VM you will have to enable IIS. Simply access the control panel then select uninstall a program. Off to the left select "Turn windows features on or off". A list will appear then you will enable Internet Information Services.
+Once you have connected to your virtual machine you will want to go to your control panel. Uninstall a program, then select, Turn Windows features on and off.
 </p>  
 <img width="1124" height="594" alt="image" src="https://github.com/user-attachments/assets/a3d00d97-ba9d-472c-8b27-255aace74dc4" />
 </p>
-<img width="1112" height="581" alt="image" src="https://github.com/user-attachments/assets/c91fad0f-3a38-4958-9091-2bf9f8ba8c99" />
+<img width="1111" height="585" alt="image" src="https://github.com/user-attachments/assets/9a4ccdaf-161c-4513-a82c-51f5dec983b4" />
+</p>
+You will want to install / enable IIS in Windows with CGI and Common HTTP Features
+
+World Wide Web Services -> Application Development Features -> [X] CGI [X] Common HTTP Features
+<img width="644" height="536" alt="image" src="https://github.com/user-attachments/assets/9e3f7c84-4d48-4e0f-beb6-3ec5c019a310" />
+
+<img width="640" height="536" alt="image" src="https://github.com/user-attachments/assets/5345e815-b859-4c6c-8806-ecd2db6f291d" />
+
+NOTE Make sure all Common HTTP Features are checked.
+
+To make sure the IIS is installed / enabled go to a browser of your choice and search for 127.0.0.1 It should look something like this.
+
+<img width="1341" height="707" alt="image" src="https://github.com/user-attachments/assets/f67d140f-5a48-4c8d-ab31-bca0166c7c29" />
+</p>
+
+Now that the IIS is enabled, From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) Go through the install wizard and complete the install.
+<img width="723" height="455" alt="image" src="https://github.com/user-attachments/assets/6fe81ba4-94e1-4db0-ae04-ccd81fa4cd48" />
 
 
-</p>
-<br />
-</p>
-<p>
+Next from the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+<img width="723" height="455" alt="image" src="https://github.com/user-attachments/assets/9e8486e3-a169-40fe-87e3-79dd1edc81a2" />
+
+Create a folder in the C drive called PHP.
+
+From the Installation Files, download PHP 7.3.8 (php-7.3.88-nts-Win32-VC15-x866.zip) and unzip the contents into C:\PHP
+
+!! ATTENTION !! If this appears, choose to “Keep” the file:
+
 Excellent. Now that you have enabled IIS we need to install Web Platform Installer. I have provided a link here: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
   That link will provide you with all of the material you need to download to get osTicket up and running. Simply click the link and install the Web Platform Installer
 </p>
